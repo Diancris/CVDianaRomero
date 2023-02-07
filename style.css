@@ -1,0 +1,153 @@
+body{
+        height: auto;
+        width: auto;
+        background-color: black;
+    }
+    
+    .fondo {
+        position: relative;        
+        width: 1000px;
+        height: 1200px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .izquierda {
+        position: absolute;
+        background-color: #F5CEEA;
+        top: 40px;
+        left: 30px;
+        width: 500px;
+        height: 1160px;
+     }
+     .circulo {
+        position: absolute;
+        top: 75px;
+        left: 180px;
+        width: 167px;
+        height: 170px;
+        -moz-border-radius: 80%;
+        -webkit-border-radius: 80%;
+        border-radius: 80%;
+        background: #d43ac8;
+   }
+
+   .ima{
+    top: 75px;
+    left: 180px;
+    width: 200px;
+    height: 200px;
+    
+
+    }
+   
+ #subtitulos{
+    position: absolute;
+    top: 2px;
+    right:100px;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    .rect1 {
+    position: absolute;
+    left: 85px;
+    top: 300px;
+    width: 430px; 
+    height: 50px; 
+    background: #d43ac8;
+    }
+    .caja1{
+    position: absolute;
+    left: 85px;
+    top: 370px;
+    width: 430px; 
+    height: 400px; 
+    background: #ffffff71;
+    }
+#prip{
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+}
+    .rect2 {
+    position: absolute;
+    left: 85px;
+    top: 800px;
+    width: 430px; 
+    height: 50px; 
+    background: #d43ac8;
+    }
+    .caja2{
+    position: absolute;
+    left: 85px;
+    top: 850px;
+    width: 430px; 
+    height: 300px; 
+    background: #ffffff71;
+} 
+   
+    .trapecio{
+    position: absolute;
+    top: 40px;
+    left: 550px;
+    width: 440px; 
+    height: 250px;        
+    background: #F5CEEA;
+       
+    }
+#nombre{
+    position: absolute;
+    top: 2px;
+    right: 70px;
+    font-size: 30px;
+}
+#datos{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.rect3{   
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    width: 440px; 
+    height: 50px;  
+    background: #d43ac8;
+}
+.caja3{
+    position: absolute;
+    top: 370px;
+    left: 550px;
+    width: 440px; 
+    height: 550px;  
+    background: #F5CEEA;
+}
+
+.rect4{   
+    position: absolute;
+    left: 550px;
+    top: 940px;
+    width: 440px; 
+    height: 50px; 
+    background: #d43ac8;
+}
+#experiencia{
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+}
+#containercake{
+position: absolute;
+display: grid;
+place-content: center;
+   left: 580%;
+   right: 50%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+}
+
+ 
